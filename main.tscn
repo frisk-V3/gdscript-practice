@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://db3x6hhv5s5yi"]
+
+[ext_resource type="Texture2D" uid="uid://2ljmp0nupi38" path="res://テスト.svg" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://ceyc6hvfklvnu" path="res://Player.gd" id="2_h2yge"]
+
+[node name="テスト" type="Sprite2D" unique_id=2093487826]
+position = Vector2(-315, 517)
+texture = ExtResource("1_0xm2m")
+script = ExtResource("2_h2yge")
+
+[node name="テスト" type="Sprite2D" parent="." unique_id=823058264]
+position = Vector2(675, -347)
+texture = ExtResource("1_0xm2m")
+script = ExtResource("2_h2yge")
